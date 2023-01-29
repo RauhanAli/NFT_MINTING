@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+}
+
+.nftselect{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    /* margin-left: 350px; */
+    height: 0px;
+    width: 0px;
+    align-items: center;
+    text-align: center;
+} 
+#main{
+    background-image: url("D:/mathNFT/math/src/components/mint/connect_cleanup.jpeg");
+    background-size: cover;
+    width: 200px;
+    height: 60px;
+    /* display: absolute; */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    text-align: center;
+}
+#display{
+    color: white;
+}
+#minus{
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-left: 23px;
+    background: none;
+    border: none;
+    margin-right: 10px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+}
+#plus{
+    float: right;
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    background: none;
+    border: none;
+    margin-left: 10px;
+    padding-left: 40px;
+    margin-top: -70px;
+
+}
+#display{
+    margin-right: 35px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mint1{
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    background-image: url("D:/mathNFT/math/src/components/mint/connect_cleanup.jpeg");
+    background-size: cover;
+    width: 200px;
+    height: 60px;
+    color: black;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-left: 10px; */
+    /* height: 20px; */
+}
+#max{
+    color: white;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    text-align: center;
+    /* align-items: center; */
+    /* padding: 150px; */
+}
+.container1{
+    /* text-align: center; */
+    /* padding-top: 100px; */
+    height: 100vh;
+    margin-left: 60px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+ /*==============================Media Querry(Medium Devices)==============================*/
+ @media screen and (max-width: 1024px){
+/* .midcontainer{
+    width: 100%;
+} */
+#plus{
+    margin-top: -50px;
+}
+.container{
+    height: 75vh;
+}
+.container1{
+    height: 75vh;
+}
+}
+
+ /*==============================Media Querry(Small Devices)==============================*/
+ @media screen and (max-width: 600px){
+    #plus{
+        margin-top: -45px;
+    }
+    #main{
+        margin-left: -20px;
+        } 
+        #max{
+         text-align: center;
+         margin-left: -25px;
+         padding-left: 10px;   
+        }
+        .mint{
+            margin-left: -35px;
+        }
+        .container{
+            height: 70vh;
+        }
+        .container1{
+            height: 70vh;
+        }
+    }

@@ -1,0 +1,504 @@
+body{
+    background-color: black;
+}
+
+.container{
+    height: 100vh;
+    align-items: center;
+    display:inline;
+}
+#more {display: none;}
+
+#myBtn{
+    background: none;
+    color: #32557f;
+    border: none;
+    text-decoration: underline #32557f ;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#myBtn1{
+  background: none;
+  color: #32557f;
+  border: none;
+  text-decoration: underline #32557f ;
+  padding-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#story{
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    padding: 0 10px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight:300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#story1{
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+  padding: 0 10px 0;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight:300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color:white;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#first{
+    width: auto;
+    flex-basis: 49.5%;
+    /* align-items: center; */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#dots{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#more{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#gallery{
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    padding: 0 10px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight:300;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+#loader{
+    background-size: cover;
+    height: 250px;
+    width: auto
+}
+        
+.arrow-pointer {
+    width: 250px;
+    height: 50px;
+    /* background: #32557f; */
+    position: relative;
+    /* color: white; */
+    border: none;
+    background: none;
+    /* margin: 30px 30px 0 30px; */
+    padding-bottom: 10px;
+    float: left;
+}
+    /* .arrow-pointer:after {
+      content: '';
+      position: absolute;
+      left: 0; bottom: 0; width: 0; height: 0;
+      border-left: 25px solid #7eb4e2;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      background: none;
+    } */
+  
+    /* .arrow-pointer:before {
+      content: '';
+      position: absolute;
+      right: -25px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 25px solid #32557f;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+    } */
+    #lower-para{
+        margin: 10px;
+        float: left;
+        clear: left;
+        width: 700px;
+        text-align: left;
+        /* word-spacing: 0.2em; */
+        /* flex-basis: 49.5%px; */
+        /* word-wrap:break-word; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+      #sword{
+        background-size: cover;
+        background-color: black;
+        float: right;
+      }
+      #sowrd1{
+          width:250px;
+          height:250px;
+      }
+      .line11{
+        padding-top: 60px;
+      }
+      .line1{
+        /* width: 52vh; */
+        margin: 10px;
+        height: 5px;
+        background: white;
+      }
+      .st-para{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .last-para{
+        float: left;
+        padding-left: 45px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .secondlast-para{
+        float:right;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      /* #hr1{
+        background: white;
+        border-color: white;
+        color: white;
+        height: 3px;
+      } */
+
+    #token{
+        color: white;
+        margin: 10px;
+        padding: 10px;
+        /* outline-style: double; */
+        text-decoration: underline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .bottom-arrow {
+        border-bottom: 5px solid white;
+  }
+
+  /* .bottom-arrow:after {
+    content:'';
+    position: absolute;
+    left: 2;
+    right: 2;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 20px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+} */
+
+
+  #plus{
+    background-size: cover;
+    /* margin-left: 500px; */
+    padding-top: 30px;
+    align-items: center;
+  }
+  #set{
+    background-size: cover;
+    /* margin-left: 500px; */
+    align-items: center;
+  }
+
+  .arrow-pointer1 {
+    width: 250px;
+    height: 50px;
+    background: #32557f;
+    /* background-image: url("D:/mathNFT/math/src/components/gallery/PNG-01.png"); */
+    background-size: cover;
+    position: relative;
+    color: white;
+    border: none;
+    margin: 50px 450px 0px 30px;
+    float: right;
+}
+.extra{
+  font-size: 70px;
+}
+.breed-tok{
+  padding-top: 50px;
+}
+   
+  
+    .arrow-pointer1:before {
+      content: '';
+      position: absolute;
+      right: -25px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 25px solid #32557f;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+    }
+    #lower-para1{
+        margin: 10px;
+        float: right;
+        clear: right;
+        width: 700px;
+        text-align: left;
+        /* word-spacing: 0.2em; */
+        /* flex-basis: 49.5%px; */
+        /* word-wrap:break-word; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+      #sword1{
+        background-size: cover;
+        background-color: black;
+        float: left;
+        
+      }
+  #token1{
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+  .rowdiv{
+    margin-left: 150px;
+    padding-top: 15px;
+  }
+  .raidscard{
+    background-color:black;
+     width:150px; 
+     height:150px;
+  }
+  .reveal{
+    color:white;
+    border:none;
+    background:none;
+    padding-left: 35px; 
+    margin-left:20px;
+    margin-top:15px; 
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .down-arrow{
+    padding-left: 95px;
+  }
+  .left-arrow{
+    padding-left: 30px;
+  }
+  .slash-off{
+    padding-left: 15px;
+  }
+  .image{
+    padding-left: 250px;
+  }
+  #myBtn1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #dots1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #more1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .txt-down{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ 
+  .only{
+    background-color: black;
+    /* padding-bottom: 35px; */
+  }
+  .img-logo{
+    padding-bottom: 20px;
+  }
+
+
+ /*==============================Media Querry(Medium Devices)==============================*/
+ @media screen and (max-width: 1024px){
+.midcontainer{
+  width: 100px;
+}
+.breed-tok{
+  padding-top: 20px;
+}
+
+#lower-para{
+  width: 600px;
+  height: 100px;
+}
+#lower-para1{
+  width: 600px;
+  height: 100px;
+}
+
+.arrow-pointer1{
+  margin-right: 350px;
+  /* margin-bottom: -15px; */
+}
+.st-para{
+  font-size: 9px;
+}
+.secondlast-para{
+  float:left;
+  padding-left: 12px;
+}
+.last-para{
+  float: right;
+  padding-left: 30px;
+}
+.image{
+  width: 100%;
+  /* margin: 20px; */
+}
+
+.iconslash{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.rowdiv{
+  margin-left: 80px;
+}
+.raidscard{
+  background-color:black;
+   width:100px; 
+   height:100px;
+}
+.extra{
+  font-size: 70px;
+}
+
+.down-arrow{
+  padding-left: 85px;
+}
+.left-arrow{
+  padding-left: 40px;
+}
+.reveal{
+  padding-left: 35px;
+
+  /* padding-top: 35px; */
+}
+.slash-off{
+  padding-left: 2px;
+}
+#plus{
+  padding-top: 10px;
+}
+.img-logo{
+  padding-bottom: 10px;
+}
+
+  }
+  
+   /*==============================Media Querry(Small Devices)==============================*/
+   @media screen and (max-width: 600px){
+    .midcontainer{
+      width: auto;
+    }  
+    /* .arrow-pointer{
+      margin-left: -2px;
+    } */
+    #lower-para{
+      width: 250px;
+      height: 0.5%;
+      margin: 50px;
+      /* padding-bottom: 30px; */
+    }
+    #lower-para1{
+      width: 200px;
+      height: 1%;
+    }
+    .line1{
+      width: 61vh;
+      /* margin-top: 30px; */
+    }
+    .last-para{
+      float: left;
+      padding-left: 2px;
+    }
+    .secondlast-para{
+      float:left;
+      padding-left: 2px;
+    }
+    .bottom-arrow{
+      width: 61vh;
+      /* margin-top: 80px; */
+    }
+    #sowrd1{
+      margin-left: -40px;
+      width: 150px;
+      height: 150px;
+    }
+    .arrow-pointer1{
+      margin: 20px 200px 0px 30px;
+    }
+    #token{
+      margin-top: 20px;
+    }
+    .set1{
+      padding-right: 180px;
+      /* padding-bottom: 10px; */
+    }
+   .st1{
+     padding-top: 20px;
+   }
+   .image{
+    padding-left: 10px;
+   }
+    .rowdiv{
+      margin-left: 2px;
+      margin-top: 500px;
+    }
+    .raidscard{
+      background-color:black;
+       width:30px; 
+       height:30px;
+    }
+    .reveal{
+      color:white;
+      border:none;
+      background:none;
+      /* padding-bottom: 5px;  */
+      /* margin-left:px;
+      margin-top:px;  */
+      font-weight:600;
+      font-size: 8px;
+      padding-left: 2px;
+    }
+    .icon{
+      width: 1%;
+      height: 1%;
+    }
+    .extra{
+      font-size: 20px;
+
+    }
+    .only{
+      width: 5px;
+      height: 5px;
+    }
+    .img-logo{
+      padding-bottom: 5px;
+    }
+    .last{
+      margin-right: 10px;
+    }
+    .down-arrow{
+      padding-left: 22px;
+    }
+    .left-arrow{
+      padding-left: 10px;
+    }
+    .slash-off{
+      padding-left: 10px;
+    }
+    .img-logo{
+      padding-left: -25px;
+      padding-top: 5px;
+    }
+    #plus{
+      padding-top: 5px;
+    }
+  }

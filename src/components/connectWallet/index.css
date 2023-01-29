@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+  }
+  /* .vertical-center {
+    height: 100vh;
+    text-align: center;
+  } */
+.vertical-center .wallet{
+  /* margin: 200px;   */
+ border: 2px solid white;
+ border-radius: 15px;
+ /* background-image:url('D:/mathNFT/math/src/components/connectWallet/backgroubnd.jpg'); */
+ background-image: url("D:/mathNFT/math/src/components/connectWallet/connect.jpeg");
+ background-size: cover;
+ width:200px;
+ height: 60px;
+ font-size: 1.5rem;
+ color:white;
+
+ /* size: 50px; */
+ /* margin-left: 50px; */
+
+}
+
+/*==============================Media Querry(Medium Devices)==============================*/
+@media screen and (max-width: 1024px){
+
+}
+
+/*==============================Media Querry(Small Devices)==============================*/
+@media screen and (max-width: 600px){
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+/* @media screen and (max-width: 600px){
+    .start-50{
+        margin-left: -40px;
+    }
+        
+        } */
+   /*==============================Media Querry(Small Devices)==============================*/
+   @media screen and (max-width: 600px){
+    
+}
